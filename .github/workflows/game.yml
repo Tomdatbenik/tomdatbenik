@@ -1,0 +1,51 @@
+name: Play CORRIDOR 404
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  move:
+    if: startsWith(github.event.issue.title, 'game|')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Play the move
+        env:
+          # Passed via env (never inlined) so issue titles can't inject shell code.
+          GAME_TITLE: ${{ github.event.issue.title }}
+          GAME_USER: ${{ github.event.issue.user.login }}
+          BRANCH: ${{ github.event.repository.default_branch }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # Retry loop: if two people move at once, replay on top of the newest state.
+          for i in 1 2 3 4 5; do
+            git fetch -q origin "$BRANCH"
+            git reset -q --hard "origin/$BRANCH"
+            python3 game/engine.py > "$RUNNER_TEMP/msg.md"
+            git add README.md game
+            git diff --cached --quiet && break
+            git commit -q -m "game: @$GAME_USER ${GAME_TITLE#game|}"
+            git push -q origin "HEAD:$BRANCH" && break
+            sleep $((RANDOM % 5 + 2))
+          done
+
+      - name: Reply and close the issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+          NUMBER: ${{ github.event.issue.number }}
+          REPO: ${{ github.repository }}
+        run: |
+          {
+            cat "$RUNNER_TEMP/msg.md"
+            echo
+            echo "[Back to the game](https://github.com/${REPO%%/*})"
+          } > "$RUNNER_TEMP/reply.md"
+          gh issue comment "$NUMBER" -R "$REPO" --body-file "$RUNNER_TEMP/reply.md"
+          gh issue close "$NUMBER" -R "$REPO"
