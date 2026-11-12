@@ -4,13 +4,19 @@
   "Tomdatbenik": 6,
   "Shahram-73": 2,
   "Samdatbenik": 1,
-  "paul-is-online": 2
+  "paul-is-online": 3
  },
  "wins": 0,
  "losses": 0,
  "best": null,
  "game_no": 1,
  "log": [
+  {
+   "turn": 12,
+   "user": "paul-is-online",
+   "action": "forward",
+   "msg": "Bonk. There's a wall there."
+  },
   {
    "turn": 11,
    "user": "paul-is-online",
@@ -52,15 +58,9 @@
    "user": "Shahram-73",
    "action": "shoot",
    "msg": "BLAM! The shot hits nothing but wall."
-  },
-  {
-   "turn": 4,
-   "user": "Tomdatbenik",
-   "action": "shoot",
-   "msg": "BLAM! The shot hits nothing but wall."
   }
  ],
- "turn": 11,
+ "turn": 12,
  "status": "playing",
  "kills": 0,
  "score": 0,
