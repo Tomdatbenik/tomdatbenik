@@ -4,13 +4,19 @@
   "Tomdatbenik": 6,
   "Shahram-73": 2,
   "Samdatbenik": 1,
-  "paul-is-online": 14
+  "paul-is-online": 15
  },
  "wins": 0,
  "losses": 0,
  "best": null,
  "game_no": 1,
  "log": [
+  {
+   "turn": 24,
+   "user": "paul-is-online",
+   "action": "shoot",
+   "msg": "BLAM! A grunt goes down. (+100)"
+  },
   {
    "turn": 23,
    "user": "paul-is-online",
@@ -52,18 +58,12 @@
    "user": "paul-is-online",
    "action": "forward",
    "msg": "Footsteps echo down the corridor."
-  },
-  {
-   "turn": 16,
-   "user": "paul-is-online",
-   "action": "turn-left",
-   "msg": "You turn left."
   }
  ],
- "turn": 23,
+ "turn": 24,
  "status": "playing",
- "kills": 1,
- "score": 100,
+ "kills": 2,
+ "score": 200,
  "enemies": [
   {
    "x": 5,
@@ -78,7 +78,7 @@
   {
    "x": 6,
    "y": 4,
-   "hp": 2
+   "hp": 0
   },
   {
    "x": 13,
@@ -129,16 +129,16 @@
   }
  ],
  "last": {
-  "shot": false,
-  "hurt": true
+  "shot": true,
+  "hurt": false
  },
- "message": "You turn left. A grunt claws you (-13).",
+ "message": "BLAM! A grunt goes down. (+100)",
  "player": {
   "x": 5,
   "y": 4,
   "dir": 0,
   "hp": 87,
-  "ammo": 17
+  "ammo": 16
  },
  "total": 8
 }
