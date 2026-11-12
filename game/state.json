@@ -1,13 +1,19 @@
 {
  "seed": 674084345,
  "players": {
-  "Tomdatbenik": 3
+  "Tomdatbenik": 4
  },
  "wins": 0,
  "losses": 0,
  "best": null,
  "game_no": 1,
  "log": [
+  {
+   "turn": 4,
+   "user": "Tomdatbenik",
+   "action": "shoot",
+   "msg": "BLAM! The shot hits nothing but wall."
+  },
   {
    "turn": 3,
    "user": "Tomdatbenik",
@@ -27,7 +33,7 @@
    "msg": "Footsteps echo down the corridor."
   }
  ],
- "turn": 3,
+ "turn": 4,
  "status": "playing",
  "kills": 0,
  "score": 0,
@@ -96,16 +102,16 @@
   }
  ],
  "last": {
-  "shot": false,
+  "shot": true,
   "hurt": false
  },
- "message": "You turn right.",
+ "message": "BLAM! The shot hits nothing but wall.",
  "player": {
   "x": 2,
   "y": 1,
   "dir": 0,
   "hp": 100,
-  "ammo": 20
+  "ammo": 19
  },
  "total": 8
 }

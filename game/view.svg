@@ -163,6 +163,7 @@
 <rect x="632.0" y="60.0" width="4.6" height="240.0" fill="#6a5d50"/>
 <rect x="636.0" y="60.0" width="4.6" height="240.0" fill="#6a5d50"/>
 <g stroke="#7CFC00" stroke-width="2" opacity=".8"><line x1="308.0" y1="180.0" x2="316.0" y2="180.0"/><line x1="324.0" y1="180.0" x2="332.0" y2="180.0"/><line x1="320.0" y1="168.0" x2="320.0" y2="176.0"/><line x1="320.0" y1="184.0" x2="320.0" y2="192.0"/></g>
+<polygon points="320.0,185 334.0,220 362.0,210 340.0,238 354.0,262 320.0,248 286.0,262 300.0,238 278.0,210 306.0,220" fill="#ffd23f"/><circle cx="320.0" cy="232" r="14" fill="#fff6c0"/>
 <polygon points="274.0,360 296.0,256 344.0,256 366.0,360" fill="#2c2c30" stroke="#111" stroke-width="2"/><rect x="309.0" y="238" width="22" height="30" fill="#4a4a52" stroke="#111" stroke-width="2"/><rect x="316.0" y="238" width="8" height="6" fill="#000"/><rect x="296.0" y="290" width="48" height="8" fill="#56565e"/><ellipse cx="280.0" cy="350" rx="26" ry="20" fill="#5a3b22"/><ellipse cx="360.0" cy="350" rx="26" ry="20" fill="#5a3b22"/>
 <rect x="547" y="7" width="86" height="86" fill="#000" opacity=".55"/>
 <rect x="550" y="10" width="5" height="5" fill="#8a8a8a" opacity=".7"/>
@@ -281,13 +282,13 @@
 <circle cx="607.5" cy="77.5" r="2" fill="#f33"/>
 <circle cx="617.5" cy="77.5" r="2" fill="#f33"/>
 <line x1="562.5" y1="17.5" x2="570.5" y2="17.5" stroke="#7CFC00" stroke-width="1.5"/><circle cx="562.5" cy="17.5" r="2.4" fill="#7CFC00"/>
-<text x="12" y="24" font-size="16" font-weight="bold" fill="#e33" letter-spacing="3">CORRIDOR 404</text><text x="12" y="40" font-size="11" fill="#aaa">run #1 · turn 3</text>
+<text x="12" y="24" font-size="16" font-weight="bold" fill="#e33" letter-spacing="3">CORRIDOR 404</text><text x="12" y="40" font-size="11" fill="#aaa">run #1 · turn 4</text>
 </g>
 <rect y="360" width="640" height="64" fill="#3b3b3f"/><rect y="360" width="640" height="3" fill="#77777d"/>
 <text x="20" y="384" font-size="11" fill="#aaa">HEALTH</text><text x="20" y="410" font-size="26" font-weight="bold" fill="#5f5">100%</text>
-<text x="130" y="384" font-size="11" fill="#aaa">AMMO</text><text x="130" y="410" font-size="26" font-weight="bold" fill="#fc3">20</text>
+<text x="130" y="384" font-size="11" fill="#aaa">AMMO</text><text x="130" y="410" font-size="26" font-weight="bold" fill="#fc3">19</text>
 <text x="300" y="384" font-size="11" fill="#aaa">KILLS</text><text x="300" y="410" font-size="26" font-weight="bold" fill="#f66">0/8</text>
 <text x="410" y="384" font-size="11" fill="#aaa">SCORE</text><text x="410" y="410" font-size="26" font-weight="bold" fill="#ddd">0</text>
 <rect x="240" y="368" width="50" height="50" rx="6" fill="#c9a27a" stroke="#222" stroke-width="2"/><text x="265" y="401" text-anchor="middle" font-size="18" font-weight="bold" fill="#222">:)</text>
-<rect x="0" y="338" width="640" height="22" fill="#000" opacity=".55"/><text x="12" y="353" font-size="12" fill="#eee">You turn right.</text>
+<rect x="0" y="338" width="640" height="22" fill="#000" opacity=".55"/><text x="12" y="353" font-size="12" fill="#eee">BLAM! The shot hits nothing but wall.</text>
 </svg>
