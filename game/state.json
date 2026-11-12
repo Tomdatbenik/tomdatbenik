@@ -2,13 +2,20 @@
  "seed": 674084345,
  "players": {
   "Tomdatbenik": 6,
-  "Shahram-73": 2
+  "Shahram-73": 2,
+  "Samdatbenik": 1
  },
  "wins": 0,
  "losses": 0,
  "best": null,
  "game_no": 1,
  "log": [
+  {
+   "turn": 9,
+   "user": "Samdatbenik",
+   "action": "turn-left",
+   "msg": "You turn left."
+  },
   {
    "turn": 8,
    "user": "Tomdatbenik",
@@ -50,15 +57,9 @@
    "user": "Tomdatbenik",
    "action": "turn-left",
    "msg": "You turn left."
-  },
-  {
-   "turn": 1,
-   "user": "Tomdatbenik",
-   "action": "forward",
-   "msg": "Footsteps echo down the corridor."
   }
  ],
- "turn": 8,
+ "turn": 9,
  "status": "playing",
  "kills": 0,
  "score": 0,
@@ -84,8 +85,8 @@
    "hp": 2
   },
   {
-   "x": 3,
-   "y": 9,
+   "x": 2,
+   "y": 8,
    "hp": 2
   },
   {
@@ -130,11 +131,11 @@
   "shot": false,
   "hurt": false
  },
- "message": "Footsteps echo down the corridor.",
+ "message": "You turn left.",
  "player": {
   "x": 2,
   "y": 2,
-  "dir": 2,
+  "dir": 1,
   "hp": 100,
   "ammo": 18
  },
