@@ -4,13 +4,19 @@
   "Tomdatbenik": 6,
   "Shahram-73": 2,
   "Samdatbenik": 1,
-  "paul-is-online": 9
+  "paul-is-online": 10
  },
  "wins": 0,
  "losses": 0,
  "best": null,
  "game_no": 1,
  "log": [
+  {
+   "turn": 19,
+   "user": "paul-is-online",
+   "action": "turn-right",
+   "msg": "You turn right."
+  },
   {
    "turn": 18,
    "user": "paul-is-online",
@@ -52,15 +58,9 @@
    "user": "paul-is-online",
    "action": "forward",
    "msg": "Bonk. There's a wall there."
-  },
-  {
-   "turn": 11,
-   "user": "paul-is-online",
-   "action": "forward",
-   "msg": "Bonk. There's a wall there."
   }
  ],
- "turn": 18,
+ "turn": 19,
  "status": "playing",
  "kills": 0,
  "score": 0,
@@ -132,11 +132,11 @@
   "shot": false,
   "hurt": false
  },
- "message": "You turn left.",
+ "message": "You turn right.",
  "player": {
   "x": 4,
   "y": 4,
-  "dir": 7,
+  "dir": 0,
   "hp": 100,
   "ammo": 18
  },
