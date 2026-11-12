@@ -3,13 +3,20 @@
  "players": {
   "Tomdatbenik": 6,
   "Shahram-73": 2,
-  "Samdatbenik": 1
+  "Samdatbenik": 1,
+  "paul-is-online": 1
  },
  "wins": 0,
  "losses": 0,
  "best": null,
  "game_no": 1,
  "log": [
+  {
+   "turn": 10,
+   "user": "paul-is-online",
+   "action": "forward",
+   "msg": "Footsteps echo down the corridor."
+  },
   {
    "turn": 9,
    "user": "Samdatbenik",
@@ -51,15 +58,9 @@
    "user": "Tomdatbenik",
    "action": "turn-right",
    "msg": "You turn right."
-  },
-  {
-   "turn": 2,
-   "user": "Tomdatbenik",
-   "action": "turn-left",
-   "msg": "You turn left."
   }
  ],
- "turn": 9,
+ "turn": 10,
  "status": "playing",
  "kills": 0,
  "score": 0,
@@ -131,10 +132,10 @@
   "shot": false,
   "hurt": false
  },
- "message": "You turn left.",
+ "message": "Footsteps echo down the corridor.",
  "player": {
-  "x": 2,
-  "y": 2,
+  "x": 3,
+  "y": 3,
   "dir": 1,
   "hp": 100,
   "ammo": 18
