@@ -1,13 +1,20 @@
 {
  "seed": 674084345,
  "players": {
-  "Tomdatbenik": 4
+  "Tomdatbenik": 4,
+  "Shahram-73": 1
  },
  "wins": 0,
  "losses": 0,
  "best": null,
  "game_no": 1,
  "log": [
+  {
+   "turn": 5,
+   "user": "Shahram-73",
+   "action": "shoot",
+   "msg": "BLAM! The shot hits nothing but wall."
+  },
   {
    "turn": 4,
    "user": "Tomdatbenik",
@@ -33,7 +40,7 @@
    "msg": "Footsteps echo down the corridor."
   }
  ],
- "turn": 4,
+ "turn": 5,
  "status": "playing",
  "kills": 0,
  "score": 0,
@@ -111,7 +118,7 @@
   "y": 1,
   "dir": 0,
   "hp": 100,
-  "ammo": 19
+  "ammo": 18
  },
  "total": 8
 }
