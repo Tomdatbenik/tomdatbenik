@@ -8,7 +8,7 @@ Welcome to my profile. Fancy a quick game? Everyone who visits plays the same ru
 
 <div align="center">
 
-<img src="game/view.svg?turn=1-2" alt="CORRIDOR 404 game view" width="640">
+<img src="game/view.svg?turn=1-3" alt="CORRIDOR 404 game view" width="640">
 
 </div>
 
@@ -19,7 +19,7 @@ Welcome to my profile. Fancy a quick game? Everyone who visits plays the same ru
 
 <p align="center"><a href="https://github.com/Tomdatbenik/tomdatbenik/issues/new?title=game%7Cnew&body=Just+press+%22Create%22+and+wait+about+a+minute+-+the+README+updates+itself.">🔄 New game</a></p>
 
-**Last move:** You turn left.
+**Last move:** You turn right.
 
 <details><summary>How to play · recent moves · top players</summary>
 
@@ -27,10 +27,11 @@ Every move is a GitHub issue. Click an action, hit **Create**, and a GitHub Acti
 
 | Turn | Player | Move | Result |
 |---|---|---|---|
+| 3 | @Tomdatbenik | turn-right | You turn right. |
 | 2 | @Tomdatbenik | turn-left | You turn left. |
 | 1 | @Tomdatbenik | forward | Footsteps echo down the corridor. |
 
-**Top players:** @Tomdatbenik (2)
+**Top players:** @Tomdatbenik (3)
 
 **Runs:** 0 cleared · 0 lost
 
