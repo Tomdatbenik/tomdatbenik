@@ -4,13 +4,19 @@
   "Tomdatbenik": 6,
   "Shahram-73": 2,
   "Samdatbenik": 1,
-  "paul-is-online": 10
+  "paul-is-online": 11
  },
  "wins": 0,
  "losses": 0,
  "best": null,
  "game_no": 1,
  "log": [
+  {
+   "turn": 20,
+   "user": "paul-is-online",
+   "action": "shoot",
+   "msg": "BLAM! A grunt goes down. (+100)"
+  },
   {
    "turn": 19,
    "user": "paul-is-online",
@@ -52,23 +58,17 @@
    "user": "paul-is-online",
    "action": "turn-right",
    "msg": "You turn right."
-  },
-  {
-   "turn": 12,
-   "user": "paul-is-online",
-   "action": "forward",
-   "msg": "Bonk. There's a wall there."
   }
  ],
- "turn": 19,
+ "turn": 20,
  "status": "playing",
- "kills": 0,
- "score": 0,
+ "kills": 1,
+ "score": 100,
  "enemies": [
   {
    "x": 5,
    "y": 4,
-   "hp": 2
+   "hp": 0
   },
   {
    "x": 13,
@@ -129,16 +129,16 @@
   }
  ],
  "last": {
-  "shot": false,
+  "shot": true,
   "hurt": false
  },
- "message": "You turn right.",
+ "message": "BLAM! A grunt goes down. (+100)",
  "player": {
   "x": 4,
   "y": 4,
   "dir": 0,
   "hp": 100,
-  "ammo": 18
+  "ammo": 17
  },
  "total": 8
 }
