@@ -8,18 +8,18 @@ Welcome to my profile. Fancy a quick game? Everyone who visits plays the same ru
 
 <div align="center">
 
-<img src="game/frames/1-7.svg" alt="CORRIDOR 404 game view" width="640">
+<img src="game/frames/1-8.svg" alt="CORRIDOR 404 game view" width="640">
 
 </div>
 
 |  |  |  |
 |:-:|:-:|:-:|
-| [↩️ Turn left](https://github.com/tomdatbenik/tomdatbenik/issues/new?title=game%7Cturn-left&body=Just+press+%22Create%22+and+wait+about+a+minute+-+the+README+updates+itself.) | [⬆️ Forward](https://github.com/tomdatbenik/tomdatbenik/issues/new?title=game%7Cforward&body=Just+press+%22Create%22+and+wait+about+a+minute+-+the+README+updates+itself.) | [↪️ Turn right](https://github.com/tomdatbenik/tomdatbenik/issues/new?title=game%7Cturn-right&body=Just+press+%22Create%22+and+wait+about+a+minute+-+the+README+updates+itself.) |
-| | [⬇️ Back](https://github.com/tomdatbenik/tomdatbenik/issues/new?title=game%7Cback&body=Just+press+%22Create%22+and+wait+about+a+minute+-+the+README+updates+itself.) | [🔫 Shoot](https://github.com/tomdatbenik/tomdatbenik/issues/new?title=game%7Cshoot&body=Just+press+%22Create%22+and+wait+about+a+minute+-+the+README+updates+itself.) |
+| [↩️ Turn left](https://github.com/Tomdatbenik/tomdatbenik/issues/new?title=game%7Cturn-left&body=Just+press+%22Create%22+and+wait+about+a+minute+-+the+README+updates+itself.) | [⬆️ Forward](https://github.com/Tomdatbenik/tomdatbenik/issues/new?title=game%7Cforward&body=Just+press+%22Create%22+and+wait+about+a+minute+-+the+README+updates+itself.) | [↪️ Turn right](https://github.com/Tomdatbenik/tomdatbenik/issues/new?title=game%7Cturn-right&body=Just+press+%22Create%22+and+wait+about+a+minute+-+the+README+updates+itself.) |
+| | [⬇️ Back](https://github.com/Tomdatbenik/tomdatbenik/issues/new?title=game%7Cback&body=Just+press+%22Create%22+and+wait+about+a+minute+-+the+README+updates+itself.) | [🔫 Shoot](https://github.com/Tomdatbenik/tomdatbenik/issues/new?title=game%7Cshoot&body=Just+press+%22Create%22+and+wait+about+a+minute+-+the+README+updates+itself.) |
 
-<p align="center"><a href="https://github.com/tomdatbenik/tomdatbenik/issues/new?title=game%7Cnew&body=Just+press+%22Create%22+and+wait+about+a+minute+-+the+README+updates+itself.">🔄 New game</a></p>
+<p align="center"><a href="https://github.com/Tomdatbenik/tomdatbenik/issues/new?title=game%7Cnew&body=Just+press+%22Create%22+and+wait+about+a+minute+-+the+README+updates+itself.">🔄 New game</a></p>
 
-**Last move:** You turn right.
+**Last move:** Footsteps echo down the corridor.
 
 <details><summary>How to play · recent moves · top players</summary>
 
@@ -27,6 +27,7 @@ Every move is a GitHub issue. Click an action, hit **Create**, and a GitHub Acti
 
 | Turn | Player | Move | Result |
 |---|---|---|---|
+| 8 | @Tomdatbenik | forward | Footsteps echo down the corridor. |
 | 7 | @Tomdatbenik | turn-right | You turn right. |
 | 6 | @Shahram-73 | turn-right | You turn right. |
 | 5 | @Shahram-73 | shoot | BLAM! The shot hits nothing but wall. |
@@ -35,7 +36,7 @@ Every move is a GitHub issue. Click an action, hit **Create**, and a GitHub Acti
 | 2 | @Tomdatbenik | turn-left | You turn left. |
 | 1 | @Tomdatbenik | forward | Footsteps echo down the corridor. |
 
-**Top players:** @Tomdatbenik (5), @Shahram-73 (2)
+**Top players:** @Tomdatbenik (6), @Shahram-73 (2)
 
 **Runs:** 0 cleared · 0 lost
 
