@@ -4,13 +4,19 @@
   "Tomdatbenik": 6,
   "Shahram-73": 2,
   "Samdatbenik": 1,
-  "paul-is-online": 31
+  "paul-is-online": 32
  },
  "wins": 0,
  "losses": 0,
  "best": null,
  "game_no": 1,
  "log": [
+  {
+   "turn": 41,
+   "user": "paul-is-online",
+   "action": "forward",
+   "msg": "Picked up a box of shells. (+8 ammo)"
+  },
   {
    "turn": 40,
    "user": "paul-is-online",
@@ -52,18 +58,12 @@
    "user": "paul-is-online",
    "action": "forward",
    "msg": "Footsteps echo down the corridor."
-  },
-  {
-   "turn": 33,
-   "user": "paul-is-online",
-   "action": "forward",
-   "msg": "Footsteps echo down the corridor."
   }
  ],
- "turn": 40,
+ "turn": 41,
  "status": "playing",
  "kills": 3,
- "score": 300,
+ "score": 310,
  "enemies": [
   {
    "x": 5,
@@ -108,11 +108,6 @@
  ],
  "items": [
   {
-   "x": 13,
-   "y": 2,
-   "kind": "ammo"
-  },
-  {
    "x": 2,
    "y": 7,
    "kind": "health"
@@ -132,13 +127,13 @@
   "shot": false,
   "hurt": false
  },
- "message": "You turn left.",
+ "message": "Picked up a box of shells. (+8 ammo)",
  "player": {
   "x": 13,
-  "y": 3,
+  "y": 2,
   "dir": 6,
   "hp": 87,
-  "ammo": 15
+  "ammo": 23
  },
  "total": 8
 }
