@@ -5,13 +5,19 @@
   "Shahram-73": 2,
   "Samdatbenik": 1,
   "paul-is-online": 42,
-  "Saleh-byt": 1
+  "Saleh-byt": 2
  },
  "wins": 0,
  "losses": 0,
  "best": null,
  "game_no": 1,
  "log": [
+  {
+   "turn": 53,
+   "user": "Saleh-byt",
+   "action": "turn-right",
+   "msg": "You turn right."
+  },
   {
    "turn": 52,
    "user": "Saleh-byt",
@@ -53,15 +59,9 @@
    "user": "paul-is-online",
    "action": "turn-left",
    "msg": "You turn left."
-  },
-  {
-   "turn": 45,
-   "user": "paul-is-online",
-   "action": "turn-left",
-   "msg": "You turn left."
   }
  ],
- "turn": 52,
+ "turn": 53,
  "status": "playing",
  "kills": 3,
  "score": 310,
@@ -128,11 +128,11 @@
   "shot": false,
   "hurt": false
  },
- "message": "Footsteps echo down the corridor.",
+ "message": "You turn right.",
  "player": {
   "x": 12,
   "y": 5,
-  "dir": 4,
+  "dir": 5,
   "hp": 87,
   "ammo": 23
  },
