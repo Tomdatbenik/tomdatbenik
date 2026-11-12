@@ -1,12 +1,21 @@
 {
  "seed": 674084345,
- "players": {},
+ "players": {
+  "Tomdatbenik": 1
+ },
  "wins": 0,
  "losses": 0,
  "best": null,
  "game_no": 1,
- "log": [],
- "turn": 0,
+ "log": [
+  {
+   "turn": 1,
+   "user": "Tomdatbenik",
+   "action": "forward",
+   "msg": "Footsteps echo down the corridor."
+  }
+ ],
+ "turn": 1,
  "status": "playing",
  "kills": 0,
  "score": 0,
@@ -78,9 +87,9 @@
   "shot": false,
   "hurt": false
  },
- "message": "A new run begins. Something growls in the dark.",
+ "message": "Footsteps echo down the corridor.",
  "player": {
-  "x": 1,
+  "x": 2,
   "y": 1,
   "dir": 0,
   "hp": 100,
