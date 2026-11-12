@@ -4,13 +4,19 @@
   "Tomdatbenik": 6,
   "Shahram-73": 2,
   "Samdatbenik": 1,
-  "paul-is-online": 39
+  "paul-is-online": 40
  },
  "wins": 0,
  "losses": 0,
  "best": null,
  "game_no": 1,
  "log": [
+  {
+   "turn": 49,
+   "user": "paul-is-online",
+   "action": "forward",
+   "msg": "Bonk. There's a wall there."
+  },
   {
    "turn": 48,
    "user": "paul-is-online",
@@ -52,15 +58,9 @@
    "user": "paul-is-online",
    "action": "back",
    "msg": "You back away carefully."
-  },
-  {
-   "turn": 41,
-   "user": "paul-is-online",
-   "action": "forward",
-   "msg": "Picked up a box of shells. (+8 ammo)"
   }
  ],
- "turn": 48,
+ "turn": 49,
  "status": "playing",
  "kills": 3,
  "score": 310,
@@ -127,7 +127,7 @@
   "shot": false,
   "hurt": false
  },
- "message": "Footsteps echo down the corridor.",
+ "message": "Bonk. There's a wall there.",
  "player": {
   "x": 13,
   "y": 5,
