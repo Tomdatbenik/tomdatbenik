@@ -50,7 +50,7 @@ Every move is a GitHub issue. Click an action, hit **Create**, and a GitHub Acti
 
 <div align="center">
 
-<img src="cube/frames/2.svg" alt="Cube puzzle, current state" width="640">
+<img src="cube/frames/3.svg" alt="Cube puzzle, current state" width="640">
 
 </div>
 
@@ -65,7 +65,7 @@ Every move is a GitHub issue. Click an action, hit **Create**, and a GitHub Acti
 
 <p align="center"><a href="https://github.com/Tomdatbenik/tomdatbenik/issues/new?title=cube%7Cscramble&body=Just+press+%22Create%22+and+wait+about+a+minute+-+the+README+updates+itself.">🎲 Scramble</a></p>
 
-**Last move:** @Tomdatbenik played U'.
+**Last move:** @Tomdatbenik played R.
 
 <details><summary>How to play · recent moves · solvers</summary>
 
@@ -73,6 +73,7 @@ Standard notation: a letter turns that face a quarter turn clockwise *as you loo
 
 | Moves | Player | Played |
 |---|---|---|
+| 2 | @Tomdatbenik | `R` |
 | 1 | @Tomdatbenik | `U'` |
 | 0 | @Tomdatbenik | `scramble` |
 
