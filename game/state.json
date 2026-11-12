@@ -4,13 +4,19 @@
   "Tomdatbenik": 6,
   "Shahram-73": 2,
   "Samdatbenik": 1,
-  "paul-is-online": 20
+  "paul-is-online": 21
  },
  "wins": 0,
  "losses": 0,
  "best": null,
  "game_no": 1,
  "log": [
+  {
+   "turn": 30,
+   "user": "paul-is-online",
+   "action": "forward",
+   "msg": "Footsteps echo down the corridor."
+  },
   {
    "turn": 29,
    "user": "paul-is-online",
@@ -52,15 +58,9 @@
    "user": "paul-is-online",
    "action": "turn-left",
    "msg": "You turn left. A grunt claws you (-13)."
-  },
-  {
-   "turn": 22,
-   "user": "paul-is-online",
-   "action": "turn-right",
-   "msg": "You turn right."
   }
  ],
- "turn": 29,
+ "turn": 30,
  "status": "playing",
  "kills": 2,
  "score": 200,
@@ -134,7 +134,7 @@
  },
  "message": "Footsteps echo down the corridor.",
  "player": {
-  "x": 8,
+  "x": 9,
   "y": 5,
   "dir": 0,
   "hp": 87,
