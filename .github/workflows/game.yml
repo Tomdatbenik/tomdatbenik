@@ -1,4 +1,4 @@
-name: Play CORRIDOR 404
+name: Play README games
 
 on:
   issues:
@@ -10,7 +10,7 @@ permissions:
 
 jobs:
   move:
-    if: startsWith(github.event.issue.title, 'game|')
+    if: startsWith(github.event.issue.title, 'game|') || startsWith(github.event.issue.title, 'cube|')
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -24,14 +24,18 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          case "$(printf '%s' "$GAME_TITLE" | tr '[:upper:]' '[:lower:]')" in
+            cube\|*) SCRIPT=cube/cube.py; TAG=cube ;;
+            *)       SCRIPT=game/engine.py; TAG=game ;;
+          esac
           # Retry loop: if two people move at once, replay on top of the newest state.
           for i in 1 2 3 4 5; do
             git fetch -q origin "$BRANCH"
             git reset -q --hard "origin/$BRANCH"
-            python3 game/engine.py > "$RUNNER_TEMP/msg.md"
-            git add README.md game
+            python3 "$SCRIPT" > "$RUNNER_TEMP/msg.md"
+            git add README.md "$TAG"
             git diff --cached --quiet && break
-            git commit -q -m "game: @$GAME_USER ${GAME_TITLE#game|}"
+            git commit -q -m "$TAG: @$GAME_USER ${GAME_TITLE#*|}"
             git push -q origin "HEAD:$BRANCH" && break
             sleep $((RANDOM % 5 + 2))
           done

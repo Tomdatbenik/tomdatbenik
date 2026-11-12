@@ -43,3 +43,41 @@ Every move is a GitHub issue. Click an action, hit **Create**, and a GitHub Acti
 </details>
 
 <!-- GAME:END -->
+
+## 🧊 Cube
+
+<!-- CUBE:START -->
+
+<div align="center">
+
+<img src="cube/frames/0.svg" alt="Cube puzzle, current state" width="640">
+
+</div>
+
+| Face | Clockwise | Anticlockwise | Double |
+|:-:|:-:|:-:|:-:|
+| **U** (Up) | [`U`](https://github.com/tomdatbenik/tomdatbenik/issues/new?title=cube%7CU&body=Just+press+%22Create%22+and+wait+about+a+minute+-+the+README+updates+itself.) | [`U'`](https://github.com/tomdatbenik/tomdatbenik/issues/new?title=cube%7CU%27&body=Just+press+%22Create%22+and+wait+about+a+minute+-+the+README+updates+itself.) | [`U2`](https://github.com/tomdatbenik/tomdatbenik/issues/new?title=cube%7CU2&body=Just+press+%22Create%22+and+wait+about+a+minute+-+the+README+updates+itself.) |
+| **D** (Down) | [`D`](https://github.com/tomdatbenik/tomdatbenik/issues/new?title=cube%7CD&body=Just+press+%22Create%22+and+wait+about+a+minute+-+the+README+updates+itself.) | [`D'`](https://github.com/tomdatbenik/tomdatbenik/issues/new?title=cube%7CD%27&body=Just+press+%22Create%22+and+wait+about+a+minute+-+the+README+updates+itself.) | [`D2`](https://github.com/tomdatbenik/tomdatbenik/issues/new?title=cube%7CD2&body=Just+press+%22Create%22+and+wait+about+a+minute+-+the+README+updates+itself.) |
+| **F** (Front) | [`F`](https://github.com/tomdatbenik/tomdatbenik/issues/new?title=cube%7CF&body=Just+press+%22Create%22+and+wait+about+a+minute+-+the+README+updates+itself.) | [`F'`](https://github.com/tomdatbenik/tomdatbenik/issues/new?title=cube%7CF%27&body=Just+press+%22Create%22+and+wait+about+a+minute+-+the+README+updates+itself.) | [`F2`](https://github.com/tomdatbenik/tomdatbenik/issues/new?title=cube%7CF2&body=Just+press+%22Create%22+and+wait+about+a+minute+-+the+README+updates+itself.) |
+| **B** (Back) | [`B`](https://github.com/tomdatbenik/tomdatbenik/issues/new?title=cube%7CB&body=Just+press+%22Create%22+and+wait+about+a+minute+-+the+README+updates+itself.) | [`B'`](https://github.com/tomdatbenik/tomdatbenik/issues/new?title=cube%7CB%27&body=Just+press+%22Create%22+and+wait+about+a+minute+-+the+README+updates+itself.) | [`B2`](https://github.com/tomdatbenik/tomdatbenik/issues/new?title=cube%7CB2&body=Just+press+%22Create%22+and+wait+about+a+minute+-+the+README+updates+itself.) |
+| **L** (Left) | [`L`](https://github.com/tomdatbenik/tomdatbenik/issues/new?title=cube%7CL&body=Just+press+%22Create%22+and+wait+about+a+minute+-+the+README+updates+itself.) | [`L'`](https://github.com/tomdatbenik/tomdatbenik/issues/new?title=cube%7CL%27&body=Just+press+%22Create%22+and+wait+about+a+minute+-+the+README+updates+itself.) | [`L2`](https://github.com/tomdatbenik/tomdatbenik/issues/new?title=cube%7CL2&body=Just+press+%22Create%22+and+wait+about+a+minute+-+the+README+updates+itself.) |
+| **R** (Right) | [`R`](https://github.com/tomdatbenik/tomdatbenik/issues/new?title=cube%7CR&body=Just+press+%22Create%22+and+wait+about+a+minute+-+the+README+updates+itself.) | [`R'`](https://github.com/tomdatbenik/tomdatbenik/issues/new?title=cube%7CR%27&body=Just+press+%22Create%22+and+wait+about+a+minute+-+the+README+updates+itself.) | [`R2`](https://github.com/tomdatbenik/tomdatbenik/issues/new?title=cube%7CR2&body=Just+press+%22Create%22+and+wait+about+a+minute+-+the+README+updates+itself.) |
+
+<p align="center"><a href="https://github.com/tomdatbenik/tomdatbenik/issues/new?title=cube%7Cscramble&body=Just+press+%22Create%22+and+wait+about+a+minute+-+the+README+updates+itself.">🎲 Scramble</a></p>
+
+**Last move:** The cube is solved. Hit Scramble to start an attempt!
+
+<details><summary>How to play · recent moves · solvers</summary>
+
+Standard notation: a letter turns that face a quarter turn clockwise *as you look at that face*, `'` turns it anticlockwise and `2` turns it twice. The left picture shows the front, top and right faces, and the right picture shows the cube flipped over to the back, bottom and left. Scramble starts a counted attempt. Pro tip: open an issue titled `cube|R U R' U'` to play up to 20 moves at once.
+
+| Moves | Player | Played |
+|---|---|---|
+
+**Solvers:** nobody yet. Be the first!
+
+**Solves:** 0
+
+</details>
+
+<!-- CUBE:END -->
