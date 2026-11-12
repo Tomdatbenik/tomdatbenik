@@ -2,13 +2,14 @@
 """CORRIDOR 404 - a turn-based raycast shooter that lives in a GitHub profile README.
 
 Each move is a GitHub issue titled "game|<action>". A workflow runs this script,
-which updates game/state.json, re-renders game/view.svg and rewrites the game
+which updates game/state.json, renders game/frames/<run>-<turn>.svg and rewrites the game
 section of README.md.
 
 Usage:
   python game/engine.py                     # reads GAME_TITLE / GAME_USER env (Actions)
   python game/engine.py forward [user]      # play one move locally
   python game/engine.py --reset             # wipe everything and start fresh
+  python game/engine.py --render            # redraw the current frame + README
 """
 import json
 import math
@@ -20,7 +21,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
 STATE_FILE = ROOT / "state.json"
-VIEW_FILE = ROOT / "view.svg"
+FRAMES_DIR = ROOT / "frames"  # one file per turn so GitHub's image cache never shows a stale frame
 README_FILE = ROOT.parent / "README.md"
 
 START, END = "<!-- GAME:START -->", "<!-- GAME:END -->"
@@ -473,10 +474,14 @@ def issue_link(repo, action):
     return f"https://github.com/{repo}/issues/new?title=game%7C{action}&body={body}"
 
 
+def frame_name(s):
+    return f'{s["game_no"]}-{s["turn"]}.svg'
+
+
 def readme_section(s, repo):
     L = lambda a: f"[{ACTIONS[a]}]({issue_link(repo, a)})"
     lines = [START, "", '<div align="center">', "",
-             f'<img src="game/view.svg?turn={s["game_no"]}-{s["turn"]}" alt="CORRIDOR 404 game view" width="640">', "", "</div>", ""]
+             f'<img src="game/frames/{frame_name(s)}" alt="CORRIDOR 404 game view" width="640">', "", "</div>", ""]
     if s["status"] == "playing":
         lines += ["|  |  |  |", "|:-:|:-:|:-:|",
                   f'| {L("turn-left")} | {L("forward")} | {L("turn-right")} |',
@@ -517,6 +522,8 @@ def main():
     if args == ["--reset"]:
         s = fresh_game()
         s["game_no"] = 1
+    elif args == ["--render"]:
+        s = load()
     else:
         if args:
             title, user = "game|" + args[0], (args[1] if len(args) > 1 else "local")
@@ -531,7 +538,10 @@ def main():
         s = load()
         print(apply(s, m.group(1), user))
     save(s)
-    VIEW_FILE.write_text(render(s))
+    FRAMES_DIR.mkdir(exist_ok=True)
+    for old in FRAMES_DIR.glob("*.svg"):
+        old.unlink()
+    (FRAMES_DIR / frame_name(s)).write_text(render(s))
     write_readme(s, repo)
 
 
