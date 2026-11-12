@@ -8,7 +8,7 @@ Welcome to my profile. Fancy a quick game? Everyone who visits plays the same ru
 
 <div align="center">
 
-<img src="game/frames/1-13.svg" alt="CORRIDOR 404 game view" width="640">
+<img src="game/frames/1-14.svg" alt="CORRIDOR 404 game view" width="640">
 
 </div>
 
@@ -19,7 +19,7 @@ Welcome to my profile. Fancy a quick game? Everyone who visits plays the same ru
 
 <p align="center"><a href="https://github.com/Tomdatbenik/tomdatbenik/issues/new?title=game%7Cnew&body=Just+press+%22Create%22+and+wait+about+a+minute+-+the+README+updates+itself.">🔄 New game</a></p>
 
-**Last move:** You turn right.
+**Last move:** Footsteps echo down the corridor.
 
 <details><summary>How to play · recent moves · top players</summary>
 
@@ -27,6 +27,7 @@ Every move is a GitHub issue. Click an action, hit **Create**, and a GitHub Acti
 
 | Turn | Player | Move | Result |
 |---|---|---|---|
+| 14 | @paul-is-online | forward | Footsteps echo down the corridor. |
 | 13 | @paul-is-online | turn-right | You turn right. |
 | 12 | @paul-is-online | forward | Bonk. There's a wall there. |
 | 11 | @paul-is-online | forward | Bonk. There's a wall there. |
@@ -34,9 +35,8 @@ Every move is a GitHub issue. Click an action, hit **Create**, and a GitHub Acti
 | 9 | @Samdatbenik | turn-left | You turn left. |
 | 8 | @Tomdatbenik | forward | Footsteps echo down the corridor. |
 | 7 | @Tomdatbenik | turn-right | You turn right. |
-| 6 | @Shahram-73 | turn-right | You turn right. |
 
-**Top players:** @Tomdatbenik (6), @paul-is-online (4), @Shahram-73 (2), @Samdatbenik (1)
+**Top players:** @Tomdatbenik (6), @paul-is-online (5), @Shahram-73 (2), @Samdatbenik (1)
 
 **Runs:** 0 cleared · 0 lost
 
