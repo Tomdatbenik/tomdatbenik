@@ -281,7 +281,7 @@
 <circle cx="607.5" cy="77.5" r="2" fill="#f33"/>
 <circle cx="617.5" cy="77.5" r="2" fill="#f33"/>
 <line x1="567.5" y1="27.5" x2="573.2" y2="33.2" stroke="#7CFC00" stroke-width="1.5"/><circle cx="567.5" cy="27.5" r="2.4" fill="#7CFC00"/>
-<text x="12" y="24" font-size="16" font-weight="bold" fill="#e33" letter-spacing="3">CORRIDOR 404</text><text x="12" y="40" font-size="11" fill="#aaa">run #1 · turn 10</text>
+<text x="12" y="24" font-size="16" font-weight="bold" fill="#e33" letter-spacing="3">CORRIDOR 404</text><text x="12" y="40" font-size="11" fill="#aaa">run #1 · turn 11</text>
 </g>
 <rect y="360" width="640" height="64" fill="#3b3b3f"/><rect y="360" width="640" height="3" fill="#77777d"/>
 <text x="20" y="384" font-size="11" fill="#aaa">HEALTH</text><text x="20" y="410" font-size="26" font-weight="bold" fill="#5f5">100%</text>
@@ -289,5 +289,5 @@
 <text x="300" y="384" font-size="11" fill="#aaa">KILLS</text><text x="300" y="410" font-size="26" font-weight="bold" fill="#f66">0/8</text>
 <text x="410" y="384" font-size="11" fill="#aaa">SCORE</text><text x="410" y="410" font-size="26" font-weight="bold" fill="#ddd">0</text>
 <rect x="240" y="368" width="50" height="50" rx="6" fill="#c9a27a" stroke="#222" stroke-width="2"/><text x="265" y="401" text-anchor="middle" font-size="18" font-weight="bold" fill="#222">:)</text>
-<rect x="0" y="338" width="640" height="22" fill="#000" opacity=".55"/><text x="12" y="353" font-size="12" fill="#eee">Footsteps echo down the corridor.</text>
+<rect x="0" y="338" width="640" height="22" fill="#000" opacity=".55"/><text x="12" y="353" font-size="12" fill="#eee">Bonk. There's a wall there.</text>
 </svg>
