@@ -8,7 +8,7 @@ Welcome to my profile. Fancy a quick game? Everyone who visits plays the same ru
 
 <div align="center">
 
-<img src="game/frames/1-53.svg" alt="CORRIDOR 404 game view" width="640">
+<img src="game/frames/1-54.svg" alt="CORRIDOR 404 game view" width="640">
 
 </div>
 
@@ -27,6 +27,7 @@ Every move is a GitHub issue. Click an action, hit **Create**, and a GitHub Acti
 
 | Turn | Player | Move | Result |
 |---|---|---|---|
+| 54 | @brxndxndiaz | turn-right | You turn right. |
 | 53 | @Saleh-byt | turn-right | You turn right. |
 | 52 | @Saleh-byt | forward | Footsteps echo down the corridor. |
 | 51 | @paul-is-online | turn-right | You turn right. |
@@ -34,7 +35,6 @@ Every move is a GitHub issue. Click an action, hit **Create**, and a GitHub Acti
 | 49 | @paul-is-online | forward | Bonk. There's a wall there. |
 | 48 | @paul-is-online | forward | Footsteps echo down the corridor. |
 | 47 | @paul-is-online | forward | Footsteps echo down the corridor. |
-| 46 | @paul-is-online | turn-left | You turn left. |
 
 **Top players:** @paul-is-online (42), @Tomdatbenik (6), @Shahram-73 (2), @Saleh-byt (2), @Samdatbenik (1)
 
